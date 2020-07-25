@@ -1,0 +1,24 @@
+syntax = "proto2";
+
+message Shop_Raw {
+	required string Colour = 1;
+	required string Product_Name = 2;
+	required int32 Discount = 3;
+	required int32 Ratings_count = 4;
+  	required int32 Price = 5;
+	required float Ratings = 6;
+}
+
+message Shop_Processed {
+	required string Colour = 1;
+	required string Product_Name = 2;
+	required int32 Discount = 3;
+	required int32 Ratings_count = 4;
+  	required int32 Price = 5;
+	required float Ratings = 6;
+	required float Score = 7;
+}
+
+service Predictor {
+    rpc Process(Shop_Raw) returns (Shop_Processed) {}
+}
