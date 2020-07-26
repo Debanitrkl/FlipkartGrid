@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto2',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\ngrid.proto\"y\n\x08Shop_Raw\x12\x0e\n\x06\x43olour\x18\x01 \x02(\t\x12\x14\n\x0cProduct_Name\x18\x02 \x02(\t\x12\x10\n\x08\x44iscount\x18\x03 \x02(\x05\x12\x15\n\rRatings_count\x18\x04 \x02(\x05\x12\r\n\x05Price\x18\x05 \x02(\x05\x12\x0f\n\x07Ratings\x18\x06 \x02(\x02\"\x8e\x01\n\x0eShop_Processed\x12\x0e\n\x06\x43olour\x18\x01 \x02(\t\x12\x14\n\x0cProduct_Name\x18\x02 \x02(\t\x12\x10\n\x08\x44iscount\x18\x03 \x02(\x05\x12\x15\n\rRatings_count\x18\x04 \x02(\x05\x12\r\n\x05Price\x18\x05 \x02(\x05\x12\x0f\n\x07Ratings\x18\x06 \x02(\x02\x12\r\n\x05Score\x18\x07 \x02(\x02\x32\x34\n\tPredictor\x12\'\n\x07Process\x12\t.Shop_Raw\x1a\x0f.Shop_Processed\"\x00'
+  serialized_pb=b'\n\ngrid.proto\"c\n\x08Shop_Raw\x12\x0e\n\x06\x43olour\x18\x01 \x02(\t\x12\x10\n\x08\x44iscount\x18\x02 \x02(\x05\x12\x15\n\rRatings_count\x18\x03 \x02(\x05\x12\r\n\x05Price\x18\x04 \x02(\x05\x12\x0f\n\x07Ratings\x18\x05 \x02(\x02\"x\n\x0eShop_Processed\x12\x0e\n\x06\x43olour\x18\x01 \x02(\t\x12\x10\n\x08\x44iscount\x18\x02 \x02(\x05\x12\x15\n\rRatings_count\x18\x03 \x02(\x05\x12\r\n\x05Price\x18\x04 \x02(\x05\x12\x0f\n\x07Ratings\x18\x05 \x02(\x02\x12\r\n\x05Score\x18\x06 \x02(\x02\x32\x34\n\tPredictor\x12\'\n\x07Process\x12\t.Shop_Raw\x1a\x0f.Shop_Processed\"\x00'
 )
 
 
@@ -41,36 +41,29 @@ _SHOP_RAW = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Product_Name', full_name='Shop_Raw.Product_Name', index=1,
-      number=2, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=b"".decode('utf-8'),
+      name='Discount', full_name='Shop_Raw.Discount', index=1,
+      number=2, type=5, cpp_type=1, label=2,
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Discount', full_name='Shop_Raw.Discount', index=2,
+      name='Ratings_count', full_name='Shop_Raw.Ratings_count', index=2,
       number=3, type=5, cpp_type=1, label=2,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Ratings_count', full_name='Shop_Raw.Ratings_count', index=3,
+      name='Price', full_name='Shop_Raw.Price', index=3,
       number=4, type=5, cpp_type=1, label=2,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Price', full_name='Shop_Raw.Price', index=4,
-      number=5, type=5, cpp_type=1, label=2,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
-    _descriptor.FieldDescriptor(
-      name='Ratings', full_name='Shop_Raw.Ratings', index=5,
-      number=6, type=2, cpp_type=6, label=2,
+      name='Ratings', full_name='Shop_Raw.Ratings', index=4,
+      number=5, type=2, cpp_type=6, label=2,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -88,7 +81,7 @@ _SHOP_RAW = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=14,
-  serialized_end=135,
+  serialized_end=113,
 )
 
 
@@ -108,43 +101,36 @@ _SHOP_PROCESSED = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Product_Name', full_name='Shop_Processed.Product_Name', index=1,
-      number=2, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=b"".decode('utf-8'),
+      name='Discount', full_name='Shop_Processed.Discount', index=1,
+      number=2, type=5, cpp_type=1, label=2,
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Discount', full_name='Shop_Processed.Discount', index=2,
+      name='Ratings_count', full_name='Shop_Processed.Ratings_count', index=2,
       number=3, type=5, cpp_type=1, label=2,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Ratings_count', full_name='Shop_Processed.Ratings_count', index=3,
+      name='Price', full_name='Shop_Processed.Price', index=3,
       number=4, type=5, cpp_type=1, label=2,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Price', full_name='Shop_Processed.Price', index=4,
-      number=5, type=5, cpp_type=1, label=2,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
-    _descriptor.FieldDescriptor(
-      name='Ratings', full_name='Shop_Processed.Ratings', index=5,
-      number=6, type=2, cpp_type=6, label=2,
+      name='Ratings', full_name='Shop_Processed.Ratings', index=4,
+      number=5, type=2, cpp_type=6, label=2,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Score', full_name='Shop_Processed.Score', index=6,
-      number=7, type=2, cpp_type=6, label=2,
+      name='Score', full_name='Shop_Processed.Score', index=5,
+      number=6, type=2, cpp_type=6, label=2,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -161,8 +147,8 @@ _SHOP_PROCESSED = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=138,
-  serialized_end=280,
+  serialized_start=115,
+  serialized_end=235,
 )
 
 DESCRIPTOR.message_types_by_name['Shop_Raw'] = _SHOP_RAW
@@ -192,8 +178,8 @@ _PREDICTOR = _descriptor.ServiceDescriptor(
   index=0,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=282,
-  serialized_end=334,
+  serialized_start=237,
+  serialized_end=289,
   methods=[
   _descriptor.MethodDescriptor(
     name='Process',

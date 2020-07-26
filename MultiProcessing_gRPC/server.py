@@ -31,7 +31,6 @@ class PredictorServicer(grid_pb2_grpc.Predictor):
         response = grid_pb2.Shop_Processed()
         a = calculator.function(request,context)
         response.Colour = request.Colour
-        response.Product_Name = request.Product_Name
         response.Discount = request.Discount
         response.Ratings_count = request.Ratings_count
         response.Price = request.Price

@@ -52,7 +52,7 @@ def run_worker_query(x):
     global ctr
     ctr = ctr + 1
     #print(ctr)
-    request = grid_pb2.Shop_Raw(Colour = "Red", Product_Name = "Dress", Discount = 40, Ratings_count = 20, Price = 500, Ratings = 4.5)
+    request = grid_pb2.Shop_Raw(Colour = "Red", Discount = 40, Ratings_count = 20, Price = 500, Ratings = 4.5)
     response = Stub.Process(request = request)
     response = response.SerializeToString()
     return response
