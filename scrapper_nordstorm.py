@@ -99,7 +99,7 @@ def save_to_disk(text_corpus, entity):
 
 
 # Driver Code
-apparel_list = ["t-shirt", "saree", "jeans"]
+apparel_list = ["skirt", "necklines", "women's wear"]
 for apparel apparel_list:
     comments = get_comments(apparel)
     save_to_disk(comments, apparel)
