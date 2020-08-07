@@ -1,4 +1,4 @@
-function put_data(rec, Colour, Discount, Ratings_count, Price, Ratings, Score)
+function put_data(rec, Colour, Discount, Ratings_count, Price, Ratings, Score, end_time)
   local grid_pb = require "grid_pb"
   -- Serialize Example
   local msg = grid_pb.Shop_Processed()
@@ -8,6 +8,7 @@ function put_data(rec, Colour, Discount, Ratings_count, Price, Ratings, Score)
   msg.Price = Price
   msg.Ratings = Ratings
   msg.Score = Score
+  msg.end_time = end_time
   local pb_data = msg:SerializeToString()
   local pb_bytes = bytes(pb_data:len())
   bytes.set_type(pb_bytes, 4)
@@ -34,5 +35,6 @@ function verify_data(rec)
   returnMap.Price = msg.Price
   returnMap.Ratings = msg.Ratings
   returnMap.Score = msg.Score
+  returnMap.end_time = msg.end_time
   return returnMap
 end

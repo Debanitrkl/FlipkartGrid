@@ -6,6 +6,7 @@ message Shop_Raw {
 	required int32 Ratings_count = 3;
   required int32 Price = 4;
 	required float Ratings = 5;
+	required int32 end_time = 6;
 }
 
 message Shop_Processed {
@@ -14,7 +15,8 @@ message Shop_Processed {
 	required int32 Ratings_count = 3;
   	required int32 Price = 4;
 	required float Ratings = 5;
-	required float Score = 6;
+	required int32 end_time = 6;
+	required float Score = 7;
 }
 
 service Predictor {
