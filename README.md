@@ -14,7 +14,7 @@ Ensuring Data Security, Fast Data Transfers with Aerospike Database & gRPC Proto
 ### Future Work
 Further Extension on out Project Work
 
-* [**Cloth Segmentation**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/Cloth_Classifier)
+* [**Cloth Classifier**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/Cloth_Classifier)
 
 * [**Human Clothes Segmentation**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/human_parsing)
 ```
