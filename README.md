@@ -9,7 +9,7 @@ Ensuring Data Security, Fast Data Transfers with Aerospike Database & gRPC Proto
 
 * [**Expired Styles Deletion, Data Security & Aerospike Database**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/Aerospike_Security)
 
-* [**Multiprocesing Server & gRPC Protocol**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/Multiprocessing_gRPC)
+* [**Multiprocesing Server & gRPC Protocol**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/MultiProcessing_gRPC)
 
 ### Future Work
 Further Extension on out Project Work
