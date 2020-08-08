@@ -47,7 +47,6 @@ Open http://0.0.0.0:8050/ in your browser, you will see a live-updating dashboar
 Click on **Learn more** button to learn more about how this app works.
 
 ## What does this app shows
-
 Click on buttons in `Categories` column to visualize details of measurement trendlines on the bottom panel.
 The sparkline on top panel and control chart on bottom panel show process monitor using scraping data. The trend is updated every other second to simulate real-time measurements. when the product surge is more than usual(resulting in out of stock) it is cited as 'Out of Control(OOC)' and are marked in red
 Clicking on `Stop` button the live trend analysis will stop , and going to specification parameters by clicking specification tab, you can get sales infrormation on specific categories.
