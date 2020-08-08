@@ -1,4 +1,6 @@
 # FlipkartGrid (Team Ignitors - Fashion Intelligence)
+This Repo mainly focusses on Entering Data into Aerospike in a Encoded Format, Deleting Styles/ Dresses which have been outdated on a periodic basis.
+
 There are two parts in this folder`Java Spring Boot Cron Job for regular deletion of Expired Styles` ; `Storing Data in Aerospike Database in Protobytes Format`:
  * [**Spring Boot Cron Job**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/Aerospike_Security/spring-boot-aerospike-example-master)
  
