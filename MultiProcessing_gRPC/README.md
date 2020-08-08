@@ -39,3 +39,4 @@ This Repo features a **Multiprocessing gRPC Server**, able to handle Multiple Cl
  **References:-**
  * [Aerospike Installation](https://www.aerospike.com/docs/operations/install/)
  * [gRPC Python Installation](https://grpc.io/docs/languages/python/basics/)
+ * [gRPC vs HTTP API's](https://docs.microsoft.com/en-us/aspnet/core/grpc/comparison?view=aspnetcore-3.1)
