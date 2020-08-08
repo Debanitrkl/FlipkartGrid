@@ -1,4 +1,4 @@
-# FlipkartGrid
+# FlipkartGrid (Team Ignitors Submission)
 There are two dashboards in this repository:
  * [**dash-fashion-intelligence**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/dash-fashion-intelligence)
 
