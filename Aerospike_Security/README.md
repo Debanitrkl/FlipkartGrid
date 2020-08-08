@@ -23,6 +23,6 @@ Open this Folder as a project in Eclipse or Intellij and run the `SpringBootAero
 * Eclipse/Intellij IDE
 * Oracle Java 11.0.8jdk 
 
-**Requirements:-**
+**References:-**
 * [Aerospike Installation](https://www.aerospike.com/docs/operations/install/)
 * [Lua Protobuf Installation](https://github.com/urbanairship/protobuf-lua)
