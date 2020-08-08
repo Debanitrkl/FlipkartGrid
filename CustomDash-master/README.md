@@ -36,7 +36,7 @@ and all of the required `pip` packages, will be installed, and the app will be a
 
 
 ## How to use this app
-* Change the Path according to your local system in these 3 python scripts; `CustomDash-master/web_app/apps/helpers/helpers.py`; `CustomDash-  master/web_app/apps/cutomer_dashboard.py`; `CustomDash-master/web_app/apps/overall_dashboard.py`
+* Update the Path of CSV present in `CustomDash-master/web_app/appdata/` according to your local system in these 3 python scripts; `CustomDash-master/web_app/apps/helpers/helpers.py`; `CustomDash-  master/web_app/apps/cutomer_dashboard.py`; `CustomDash-master/web_app/apps/overall_dashboard.py`
 
 * To run this app locally
 
