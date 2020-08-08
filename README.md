@@ -1,8 +1,8 @@
 # FlipkartGrid
 There are two dashboards in this repository:
- * [**CustomDash-master**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/CustomDash-master)
-
  * [**dash-fashion-intelligence**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/dash-fashion-intelligence)
+
+ * [**CustomDash-master**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/CustomDash-master)
     
 ### Prerequisites
 
