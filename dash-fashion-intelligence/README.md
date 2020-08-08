@@ -1,7 +1,7 @@
 # Fashion Intelligence dashoboard
 
 ## Introduction
-`dash-fashion-intelligence` is a dashboard fThis is a dashboard made by `Team Ignitors` for monitoring user behaviour and sales data to analyse the product trend. . 
+`dash-fashion-intelligence` is a dashboard made by `Team Ignitors` for monitoring user behaviour and sales data to analyse the product trend. . 
 
 ## Built With
 * [Dash](https://dash.plot.ly/) - Main server and interactive components 
