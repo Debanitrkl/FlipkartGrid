@@ -1,14 +1,8 @@
 # Manufacturing SPC Dashboard
 
 ## Introduction
-`Dash-manufacture-spc-dashboard` is a dashboard for monitoring real-time process quality along manufacture production line. 
+`dash-fashion-intelligence` is a dashboard for monitoring real-time process quality along manufacture production line. 
 This is a demo of Dash interactive Python framework developed by [Plotly](https//plot.ly/).
-
-## Screenshots
-![initial](img/screencapture2.png)
-
-![initial](img/screencapture1.png)
-
 
 ## Built With
 * [Dash](https://dash.plot.ly/) - Main server and interactive components 
@@ -19,8 +13,8 @@ This is a demo of Dash interactive Python framework developed by [Plotly](https/
 We suggest you to create a separate virtual environment running Python 3 for this app, and install all of the required dependencies there. Run in Terminal/Command Prompt:
 
 ```
-git clone https://github.com/plotly/dash-sample-apps.git
-cd dash-sample-apps/apps/dash-manufacture-spc-dashboard/
+git clone https://github.com/Debanitrkl/FlipkartGrid.git
+cd dash-fashion-intelligence/
 python3 -m virtualenv venv
 ```
 In UNIX system: 
@@ -55,13 +49,8 @@ Click on **Learn more** button to learn more about how this app works.
 
 ## What does this app shows
 
-Click on buttons in `Parameter` column to visualize details of trendline on the bottom panel.
-
-Click `Start` button, trends are updated every two seconds to simulate real-time measurements. The Sparkline on top panel and Control chart on bottom panel show Shewhart process control using mock data. Data falling outside of control limit are signals indicating 'Out of Control(OOC)', and will 
-trigger alerts instantly for a detailed checkup. 
-
-Operators may stop measurement by clicking `Stop` button, and edit specification parameters for selected process line(metrics) in Specification Tab.
-
+Click on buttons in `Categories` column to visualize details of measurement trendlines on the bottom panel.
+The sparkline on top panel and control chart on bottom panel show process monitor using scraping data. The trend is updated every other second to simulate real-time measurements. when the product surge is more than usual(resulting in out of stock) it is cited as 'Out of Control(OOC)' and are marked in red
+Clicking on `Stop` button the live trend analysis will stop , and going to specification parameters by clicking specification tab, you can get sales infrormation on specific categories.
 ## Resources and references
-* [Shewhart statistical process control](https://en.wikipedia.org/wiki/Shewhart_individuals_control_chart)
 * [Dash User Guide](https://dash.plot.ly/)
