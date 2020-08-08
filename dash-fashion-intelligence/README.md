@@ -1,8 +1,7 @@
-# Manufacturing SPC Dashboard
+# Fashion Intelligence dashoboard
 
 ## Introduction
-`dash-fashion-intelligence` is a dashboard for monitoring real-time process quality along manufacture production line. 
-This is a demo of Dash interactive Python framework developed by [Plotly](https//plot.ly/).
+`dash-fashion-intelligence` is a dashboard fThis is a dashboard made by `Team Ignitors` for monitoring user behaviour and sales data to analyse the product trend. . 
 
 ## Built With
 * [Dash](https://dash.plot.ly/) - Main server and interactive components 
