@@ -36,7 +36,11 @@ and all of the required `pip` packages, will be installed, and the app will be a
 
 
 ## How to use this app
-To run this app locally
-Open the `CustomDash-master/webapp/index.py` 
-Open http://0.0.0.0:8050/ in your browser, you will see a live-updating dashboard.
+* Change the Path according to your local system in these 3 python scripts; `CustomDash-master/web_app/apps/helpers/helpers.py`; `CustomDash-  master/web_app/apps/cutomer_dashboard.py`; `CustomDash-master/web_app/apps/overall_dashboard.py`
+
+* To run this app locally
+
+* Run `CustomDash-master/webapp/index.py` 
+
+* Open http://0.0.0.0:8050/ in your browser, you will see a live-updating dashboard.
 
