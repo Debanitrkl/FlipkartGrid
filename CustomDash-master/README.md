@@ -1,7 +1,15 @@
+# CustomDash
+This is the repository for Customer Dashboard, a set of tools to monitor customer behaviour and predict customer churn probability.
 # Upcoming Trend Analysis Dashoboard
 
 ## Introduction
 `CustomDash-master` is a dashboard made by `Team Ignitors` for monitoring blogs and product reviews to indicate  the upcoming trends in apparel industry. 
+
+## Screenshots
+![initial](img/screenshot1.png)
+
+![initial](img/screenshot2.png)
+
 
 ## Built With
 * [Dash](https://dash.plot.ly/) - Main server and interactive components 
@@ -43,4 +51,3 @@ and all of the required `pip` packages, will be installed, and the app will be a
 * Run `CustomDash-master/webapp/index.py` 
 
 * Open http://0.0.0.0:8050/ in your browser, you will see a live-updating dashboard.
-
