@@ -1,4 +1,4 @@
-# Human Parsing
+# Human Clothes Segmentation
 This Repo focusses on a Deep Learning model which is responsible for Performing Clothes segmentation from a Human Body.
 
 These apparels after segmentation can be passed to the [Classifier](https://github.com/Debanitrkl/FlipkartGrid/tree/master/Cloth_Classifier) which will separate the apparels into different categories, and they can then be displayed under different sections to the designers.
