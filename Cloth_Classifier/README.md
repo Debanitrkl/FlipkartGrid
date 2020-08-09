@@ -1,4 +1,4 @@
-# FlipkartGrid (Team Ignitors - Fashion Intelligence)
+# Cloth Classifier
 This repo focusses on classifying clothes into different categories. A simple Code, which predicts the categories of clothes like shirt/dress/skirt etc.
 
 **Running the Model & Training with dataset:-**
