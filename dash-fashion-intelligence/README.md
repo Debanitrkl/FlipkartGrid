@@ -3,6 +3,11 @@
 ## Introduction
 `dash-fashion-intelligence` is a dashboard made by `Team Ignitors` for monitoring user behaviour and sales data to analyse the product trend. . 
 
+## Screenshots
+![initial](img/screenshot1.png)
+
+![initial](img/screenshot2.png)
+
 ## Built With
 * [Dash](https://dash.plot.ly/) - Main server and interactive components 
 * [Plotly Python](https://plot.ly/python/) - Used to create the interactive plots
