@@ -1,4 +1,5 @@
 # FlipkartGrid (Team Ignitors - Fashion Intelligence)
+This is an opensource project, as the hackathon is over now we would like to have contributors to help improve this project
 There are two dashboards`dash-fashion-intelligence:Shopping Sites` ; `CustomDash-master:Blogs` in this repository:
  * [**dash-fashion-intelligence**](https://github.com/Debanitrkl/FlipkartGrid/tree/master/dash-fashion-intelligence)
 
